@@ -1,20 +1,20 @@
 let score = "88"
 
-// console.log(typeof score);
-// console.log((typeof score));
+ console.log(typeof score);
+ console.log((typeof score));
 
 let valueInNumber = Number(score)
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber)
+ console.log(typeof valueInNumber);
+ console.log(valueInNumber)
 
 // "88" = 88
 // "88abc" = NaN "Not a Number"
 // true = 1; false = 0;
 
-// let isLoggedIn = 88
+ let isLoggedIn = 88
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+ let booleanIsLoggedIn = Boolean(isLoggedIn)
+ console.log(booleanIsLoggedIn);
 
 // 1 = true; 0 = false;
 // "" = false
