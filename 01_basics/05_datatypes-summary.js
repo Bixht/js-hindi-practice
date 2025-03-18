@@ -39,3 +39,29 @@ const kachraSeth = function(){
 
 console.log(typeof kachraSeth);
 
+
+//+++++++++++++++++++++++++++++++++++++++++++//
+
+                    //    Memory     //
+// Stack (primitive), Heap (Non-Primitive)
+
+let thisCriminal = "Bisht"
+
+let thatCriminal = thisCriminal 
+thatCriminal="Bistro"
+
+
+console.log(thatCriminal);
+console.log(thisCriminal);
+
+let vodafone = {
+    network:"wrost",
+    email:"lodafone@cc.com"
+}
+
+let vodaloan = vodafone
+
+user.email = "vodaloan@ccc.com"
+
+console.log(vodafone.email);
+console.log(vodalone.email);
