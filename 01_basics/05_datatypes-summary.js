@@ -5,21 +5,21 @@
 // N,N,B,B,S,S,U //This is the short form of Primitives
 // Null, Number, Boolean, BigInt, String, Symbol, Undefined //
 
-const score = 800           //-------------------
-                                              //|---Number                
-const scoreValue = 800.8    //-------------------
+const score = 800; //-------------------
+//|---Number
+const scoreValue = 800.8; //-------------------
 
-const loggedIn = true       //-------------------Boolean
-const indoreTemp = null     //-------------------Null
-let myEmail;                //-------------------Undefined
+const loggedIn = true; //-------------------Boolean
+const indoreTemp = null; //-------------------Null
+let myEmail; //-------------------Undefined
 
-const id = Symbol('888')    //------------------
-                                         //    | Symbol
-const newId = Symbol('888') //------------------
+const id = Symbol("888"); //------------------
+//    | Symbol
+const newId = Symbol("888"); //------------------
 
-console.log(id === newId);
+// console.log(id === newId);
 
-const bigNumm = 88888888888n  //----------------BigInt
+const bigNumm = 88888888888n; //----------------BigInt
 
 // (Non Primitive Datatypes)
 
@@ -27,41 +27,38 @@ const bigNumm = 88888888888n  //----------------BigInt
 
 const superBootie = ["dalchini", "tejpatta", "kadhipatta"];
 let bioData = {
-    name : "bisht",
-    age : 22,
-}
-console.log(typeof age);
+  name: "bisht",
+  age: 22,
+};
+// console.log(typeof age);
 
+// const kachraSeth = function () {
+//   console.log("Hello Raju");
+// };
 
-const kachraSeth = function(){
-    console.log("Hello Raju");
-}
-
-console.log(typeof kachraSeth);
-
+// console.log(typeof kachraSeth);
 
 //+++++++++++++++++++++++++++++++++++++++++++//
 
-                    //    Memory     //
+//    Memory     //
 // Stack (primitive), Heap (Non-Primitive)
 
-let thisCriminal = "Bisht"
+let thisCriminal = "Bisht";
 
-let thatCriminal = thisCriminal 
-thatCriminal="Bistro"
+let thatCriminal = thisCriminal;
+thatCriminal = "Bistro";
 
+// console.log(thatCriminal);
+// console.log(thisCriminal);
 
-console.log(thatCriminal);
-console.log(thisCriminal);
+let vodaFone = {
+  network: "wrost",
+  email: "lodafone@cc.com",
+};
 
-let vodafone = {
-    network:"wrost",
-    email:"lodafone@cc.com"
-}
+let vodaLoan = vodaFone;
 
-let vodaloan = vodafone
+vodaLoan.email = "vodaloan@ccc.com";
 
-user.email = "vodaloan@ccc.com"
-
-console.log(vodafone.email);
-console.log(vodalone.email);
+console.log(vodaFone.email);
+console.log(vodaLoan.email);
